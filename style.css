@@ -5,14 +5,22 @@
 
 .autores-desc {
     display: flex;
-    width: fit-content;
-    height: fit-content;
+    
+
+    
 
 }
 
+.autores{
+    border: tomato solid 2px;
+    width: 50%;
+}
 
 .autores div {
     display: flex;
+    border: red solid;
+    width: 90%;
+    
 
 }
 
@@ -41,6 +49,8 @@
     border: red solid;
     padding-left: 15px ;
     background-color: salmon;
+    width: 60%;
+    
 
 
 }
