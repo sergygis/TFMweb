@@ -3,31 +3,43 @@
 }
 
 .autores-desc {
-
+    display: flex;
+    width: fit-content;
+    height: fit-content;
 
 }
 
 
-.autores {
+.autores div {
+    display: flex;
 
 }
 
 
 .jose {
+    
+    display: flex;
+    color: red ;
 
 }
 
 
 .sergio {
+    display: flex;
+    color: red ;
 
 }
 
 .bea{
-
+    display: flex;
+    color: red ;
 
 }
 
 .descripcion{
+    border: red solid;
+    padding-left: 15px ;
+    background-color: salmon;
 
 
 }
@@ -43,4 +55,8 @@
 
 }
 
-
+img{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
